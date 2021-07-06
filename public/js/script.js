@@ -1,11 +1,3 @@
-// const h1 = document.querySelector("h1");
-
-// h1.addEventListener("click", e => {
-//     h1.style.color= "#fff";
-// })
-
-console.log("Client side javascript is loaded!!!");
-
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
 const message_1 = document.getElementById('message-1');

@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', e => {
         if(el.error){
             message_1.textContent=el.error;
         }else{
-            message_1.textContent = `${el.city} is a beautifull city of ${el.country} situated at latitude : ${el.latitude} , longitude : ${el.longitude} and the location : ${el.location}.`;
+            message_1.textContent = `${el.city} is a beautiful city of ${el.country} situated at latitude : ${el.latitude} , longitude : ${el.longitude} and the location : ${el.location}.`;
             message_2.textContent = `Today's Forecast max-temperature : ${el.maximum}, min-temperature : ${el.minium}, pressure : ${el.pressure}, wind speed : ${el.speed}, humidity : ${el.humidity} and ${el.details}.`;
         }
     })

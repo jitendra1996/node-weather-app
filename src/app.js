@@ -24,7 +24,7 @@ app.use(express.static(publicDirectoryPath));
 app.get('',(req , res)=>{
     res.render('index',{
         title:'Weather',
-        name:'jitendra kumar'
+        name:'Jitendra Kumar'
     });
 })
 
@@ -34,14 +34,14 @@ app.get('/help', (req , res) =>{
         msg : `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam voluptate dolor 
         laborum dolorem nobis cum 
         id quaerat nostrum molestiae, neque amet iusto quod deleniti earum reprehenderit incidunt architecto quia magni!`,
-        name : 'Jitendra kumar'
+        name : 'Jitendra Kumar'
     });
 });
 
 app.get('/about' , (req,res)=>{
     res.render('about',{
         title : 'About Me',
-        name : 'Jitendra kumar'
+        name : 'Jitendra Kumar'
     });
 });
 
